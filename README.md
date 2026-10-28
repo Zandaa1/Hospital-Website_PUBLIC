@@ -1,13 +1,17 @@
-# Diagnostic Center Website — public demo
+# Diagnostic Center Website
 
-A responsive static multipage website demonstrating service information, a gallery, consultants, FAQs and navigation. Open with a local server:
+A responsive static website with service information, a gallery, consultant profiles, FAQs and contact pages. Built with HTML, CSS and JavaScript.
+
+## Run locally
 
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Visit http://127.0.0.1:8000. No build, backend, existing accounts or deployment secrets are required. The contact form displays a local demo notice and sends nothing. Google fonts may request external font assets.
+Open `http://127.0.0.1:8000`. No build step or backend is required.
 
-Client identity, contact details, staff names, history, original imagery and map embed have been removed or replaced with synthetic examples. All pages are fictional portfolio demonstrations, not healthcare services or accreditation evidence. Placeholder assets preserve the original layout paths and convey no affiliation.
+## Project notes
 
-Verification covers static local references and JavaScript syntax; clinical accuracy, real contact delivery, accreditation and production service operation are not claimed. No new license or redistribution permission is granted; review ownership and third-party licenses before reuse.
+The pages use example content and placeholder images. Replace these with your own approved content and assets. The contact form displays a local message without sending a request; connect a backend to enable delivery. Google Fonts requires an internet connection.
+
+Local links and JavaScript syntax have been checked, along with desktop and mobile layouts.
