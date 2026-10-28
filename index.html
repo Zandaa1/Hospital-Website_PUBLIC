@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example Diagnostic Center</title>
+    <meta
+      name="description"
+      content="Example Diagnostic Center provides trusted diagnostic services, patient-centered care, and accredited quality standards."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <p class="container" role="note">Fictional portfolio demo. No healthcare services, appointments or accreditation claims.</p>
+    <header class="site-header" id="top">
+      <div class="brand-wrap container">
+        <a class="brand" href="index.html" aria-label="Example Diagnostic Center home">
+          <img src="images/logo_whiteBG_greenTxt.png" alt="Example Diagnostic Center Logo" class="brand-logo-img" />
+        </a>
+        <div class="header-contact">
+          <img src="images/icons/telephone.png" alt="" class="contact-icon" />
+          <a href="contact.html" class="contact-number">Not available in demo</a>
+        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+          Menu
+        </button>
+      </div>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="menu container" id="main-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Contact</a>
+            <ul class="dropdown-menu">
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+          </li>
+          <li><a href="accreditation.html">Accreditation</a></li>
+          <li><a href="org-chart.html">Org Chart</a></li>
+          <li><a href="consultants.html">Consultants</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Laboratories</a>
+            <ul class="dropdown-menu">
+              <li><a href="laboratories.html">Gallery</a></li>
+              <li><a href="documentation.html">Documentation</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-label="Hero banner">
+        <div class="hero-slide hero-slide-1 is-active">
+          <img src="images/hero.jpg" alt="High-quality diagnostic equipment and medical staff" class="hero-img">
+        </div>
+        <div class="hero-slide hero-slide-2">
+          <img src="images/hero2.png" alt="Laboratory diagnostic services" class="hero-img">
+        </div>
+        <div class="hero-slide hero-slide-3">
+          <img src="images/hero3.png" alt="Patient-centered care and consultation" class="hero-img">
+        </div>
+
+        <div class="slider-dots" aria-label="Hero slides">
+          <button class="dot is-active" data-slide="0" aria-label="Slide 1" aria-pressed="true"></button>
+          <button class="dot" data-slide="1" aria-label="Slide 2" aria-pressed="false"></button>
+          <button class="dot" data-slide="2" aria-label="Slide 3" aria-pressed="false"></button>
+        </div>
+      </section>
+
+      <section class="feature-links-wrap" id="services">
+        <div class="feature-links container">
+          <article class="feature-card feature-dark reveal">
+            <a class="feature-link" href="about.html" aria-label="About us page">
+              <h2>Our History</h2>
+              <div class="feature-icon " aria-hidden="true">
+                <img class="feature-icon-img" src="images/icons/book.png" alt="" />
+              </div>
+            </a>
+          </article>
+          <article class="feature-card feature-light reveal">
+            <a class="feature-link" href="services.html" aria-label="Our Services page">
+              <h2>Our Services</h2>
+              <div class="feature-icon icon-services" aria-hidden="true">
+                <img class="feature-icon-img" src="images/icons/pulse.png" alt="" />
+              </div>
+            </a>
+          </article>
+          <article class="feature-card feature-dark reveal">
+            <a class="feature-link" href="laboratories.html" aria-label="Accreditations page">
+              <h2>Our Facilities</h2>
+              <div class="feature-icon icon-facilities" aria-hidden="true">
+                <img class="feature-icon-img" src="images/icons/pulse.png" alt="" />
+              </div>
+            </a>
+          </article>
+          <article class="feature-card feature-light reveal">
+            <a class="feature-link" href="contact.html" aria-label="Contact page">
+              <h2>Contact Us</h2>
+              <div class="feature-icon" aria-hidden="true">
+                <img class="feature-icon-img" src="images/icons/telephone.png" alt="" />
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="ugc-wrap" id="about">
+        <div class="ugc container reveal">
+          <div style="text-align: center; margin-bottom: 2.5rem;">
+            <h2 style="color: var(--green-deep); margin-bottom: 1rem; font-family: 'Montserrat', sans-serif; font-size: clamp(1.8rem, 3vw, 2.8rem);">Driven by Excellence, Guided by Care</h2>
+            <p style="max-width: 800px; margin: 0 auto; line-height: 1.6; color: #555;">
+              At Example Diagnostic Center, our commitment to excellence is more than just a goal, it is the foundation of everything we do. Explore how our mission provides high-standard medical services come to life through our dedicated team and advanced technology.
+            </p>
+          </div>
+          
+          
+          <div class="video-container">
+            <p class="container">Map omitted: this demonstration has no physical location.</p>
+          </div>
+          <h3 style="text-align: center; color: var(--green-title); margin-bottom: 1.2rem; font-family: 'Montserrat', sans-serif;">A Vision of Trusted Healthcare</h3>
+          
+          <hr style="margin: 3rem 0; border: 0; border-top: 1px solid var(--gray-box);">
+          
+          <div class="video-container">
+            <p class="container">Map omitted: this demonstration has no physical location.</p>
+          </div>
+          <h3 style="text-align: center; color: var(--green-title); margin-bottom: 1.2rem; font-family: 'Montserrat', sans-serif;">Our Mission in Action</h3>
+        </div>
+      </section>
+
+      <section class="service-details container">
+        <div class="detail-block reveal">
+          <h3>Our Services</h3>
+          <p>
+            We provide laboratory diagnostics, imaging support, preventive health packages, and specialized
+            consultations delivered by qualified medical professionals.
+          </p>
+        </div>
+        <div class="detail-block reveal">
+          <h3>Accreditation</h3>
+          <p>
+            Example Diagnostic Center follows recognized quality assurance procedures with regular
+            proficiency checks, equipment calibration, and process audits.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-top container">
+        <section>
+          <h4>Example Diagnostic Center</h4>
+          <p>
+            We take pride in delivering advanced, high-quality healthcare while never losing the human
+            connection that matters most.
+          </p>
+          <p>
+            Our expert clinical teams are committed to providing care that is both exceptional and
+            compassionate.
+          </p>
+          <p>
+            You can trust that we will always go above and beyond to care for you with skill, attention,
+            and genuine concern.
+          </p>
+        </section>
+        <section>
+          <h5>Address</h5>
+          <p>
+            Address: Demo location — no physical office
+          </p>
+
+          <h5>Contact Us</h5>
+          <p>Telephone: Not available in demo</p>
+          <p>Email: contact@example.invalid</p>
+        </section>
+        <section>
+          <h5>Office Hours</h5>
+          <p>Demonstration only</p>
+          <p>No appointments</p>
+          <p>No clinical service</p>
+          <p>No opening hours</p>
+        </section>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-layout">
+          <p>Fictional portfolio demonstration</p>
+          <p>Web Design By: Portfolio demonstration</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
